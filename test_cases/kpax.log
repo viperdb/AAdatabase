@@ -1,0 +1,171 @@
+------------------------------------------------------------------------------
+Kpax 5.0.5 log starting at Fri Aug  5 19:09:56 2022 on host opaat.
+------------------------------------------------------------------------------
+
+/usr/bin/kpax5.1.3.x64 -multi 5K9O_I.pdb 5KAN_B.pdb 5K9Q_B.pdb 4UBD_B.pdb
+-----------------------------------------------------------------
+Hostname:                       opaat
+Main memory:                    257813 Mb
+CPUs online:                    32
+GPUs online:                    0
+Compute threads:                32
+KPAX_ROOT:                      /usr
+KPAX_DATABASE:                  /usr/kpax_database
+KPAX_CACHE:                     NULL
+KPAX_RESULTS:                   NULL
+KPAX_JOB:                       
+KPAX_CPUS:                      32
+KPAX_GPUS:                      1
+System folder:                  /usr/kpax_database/
+Cache folder:                   ./
+Results folder:                 ./kpax_results/
+Source folder:                  (null)
+Strip hydrogens:                0
+-----------------------------------------------------------------
+Top matches to align:           64 (-top)
+Top hits to show and output:    40 (-show)
+Banded alignment mode:          No (-nobanded)
+Banded alignment similarity:    0.00 (-filter)
+Alignment trace weight:         0.50 (-trace)
+Alignment spatial weight:       0.50 (-spatial)
+Alignment Blosum62 weight:      0.00 (-blosum)
+Alignment gap open penalty:     0.10 (-rho)
+Alignment gap extend penalty:   0.00 (-eta)
+Alignment alpha penalty factor: 2.00 (-alpha)
+Alignment beta penalty factor:  1.00 (-beta)
+Alignment loop penalty factor:  0.50 (-gamma)
+Alignment K-score scale factor: 1.00 (-sigma)
+Alignment G-score scale factor: 1.00 (-tau)
+Top CATH matches to output:     10 (-ncath)
+-----------------------------------------------------------------
+Correlation scoring order:      15
+Re-scoring order:               0
+Top solutions to consider:      5
+Max solutions:                  20
+Database import order:          0
+Receptor range angle:           180.00
+Ligand range angle:             180.00
+Receptor step size:             20.00
+Ligand step size:               10.00
+Distance range:                 6.00
+Distance step:                  0.80
+-----------------------------------------------------------------
+
+Using LOG file: ./kpax_results/kpax.log
+*Warning* Chain break I:G-330 <--> I:G-337 in file 5K9O_I
+*Warning* Chain break I:Q-391 <--> I:D-415 in file 5K9O_I
+Setting CORE threshold = 2 rows (including pivot)
+Induced alignment:   rows=4, cols=502, T=972, L=466, N=466, C=133, M=0.8640, P=2.9396
+Final alignment:     rows=4, cols=499, T=972, L=466, N=466, C=171, M=0.8631, P=3.1258
+MSA pivot 5K9O_I : M=0.8631, C=171 (keeping)
+Setting CORE threshold = 2 rows (including pivot)
+Induced alignment:   rows=4, cols=502, T=972, L=466, N=173, C=133, M=0.8663, P=2.9475
+Final alignment:     rows=4, cols=499, T=972, L=466, N=173, C=172, M=0.8643, P=3.1347
+MSA pivot 5KAN_B : M=0.8643, C=172 (keeping)
+Setting CORE threshold = 2 rows (including pivot)
+Induced alignment:   rows=4, cols=502, T=972, L=466, N=168, C=133, M=0.8669, P=2.9495
+Final alignment:     rows=4, cols=499, T=972, L=466, N=168, C=172, M=0.8649, P=3.1369
+MSA pivot 5K9Q_B : M=0.8649, C=172 (keeping)
+Setting CORE threshold = 2 rows (including pivot)
+Induced alignment:   rows=4, cols=498, T=972, L=466, N=165, C=133, M=0.8575, P=2.9174
+Final alignment:     rows=4, cols=499, T=972, L=466, N=165, C=171, M=0.8631, P=3.1258
+MSA pivot 4UBD_B : M=0.8631, C=171 (discarding)
+Creating RESULTS directory: ./kpax_results/5K9Q_B
+Writing MSA results with pivot = 5K9Q_B to FOLDER = ./kpax_results/5K9Q_B/
+Writing KMULTI file: ./kpax_results/5K9Q_B/5K9Q_B.kmulti
+Writing KMSA file: ./kpax_results/5K9Q_B/5K9Q_B_multi.kmsa
+Writing FASTA multiple alignment file: ./kpax_results/5K9Q_B/5K9Q_B_multi.fasta
+Writing PIR multiple alignment file: ./kpax_results/5K9Q_B/5K9Q_B_multi.pir
+Done multi pivot MSA for 4 targets in 0.2265 seconds.
+Best MSA has pivot = 5K9Q_B, M=0.8649, C=172, P=3.1369
+
+
+====================================================================================================================
+
+5K9Q_B                   B(     4)  GAI-AGF-------------------------------------------------------------------------
+5KAN_B                   B(     4)  GAI-AGF-------------------------------------------------------------------------
+4UBD_B                   -(------)  --------------------------------------------------------------------------------
+5K9O_I                   I(    11)  -DTLCIGYHANNSTDTVDTVLEKNVTVTHSVNLLEDKHNGKLCKLRGVAPLHLGKCNIAGWILGNPECESLSTASSWSYI
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)  gai agf                                                                         
+Consensus-SSE            -(------)  CCBBBCCCCCCCCCBBBBCCCCCCBBBCCBBCCCBBCCCCCCCCCCCCCCCBBCCCCCAAAACCCCCCCCCCCCCCCCCB
+Colour-Codes             -(------)  ROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVRO
+--------------------------------------------------------------------------------------------------------------------
+
+5K9Q_B                   -(------)  --------------------------------------------------------------------------------
+5KAN_B                   -(------)  --------------------------------------------------------------------------------
+4UBD_B                   -(------)  --------------------------------------------------------------------------------
+5K9O_I                   I(    88)  VETPSSDNGTCYPGDFIDYEELREQLSSVSSFERFEIFPKTSSWPNHDSNKGVTAACPHAGAKSFYKNLIWLVKKGNSYP
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)                                                                                  
+Consensus-SSE            -(------)  BBCCCCCCCCCCCCCCCCCAAAAAAACCCCCBBBCCCCCCAAACCCCCCCCCCCCCCCCCCCCCCCCCCBBBCCCCCCCC
+Colour-Codes             -(------)  YGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYG
+--------------------------------------------------------------------------------------------------------------------
+
+5K9Q_B                   -(------)  --------------------------------------------------------------------------------
+5KAN_B                   -(------)  --------------------------------------------------------------------------------
+4UBD_B                   -(------)  --------------------------------------------------------------------------------
+5K9O_I                   I(   163)  KLSKSYINDKGKEVLVLWGIHHPSTSADQQSLYQNADTYVFVGSSRYSKKFKPEIAIRPKVRDQEGRMNYYWTLVEPGDK
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)                                                                                  
+Consensus-SSE            -(------)  CBBBBBBCCCCCCBBBBBBBBBCCCCAAAAAACCCCCBBBBBBCCCCBBBBBBBBCCCCCCCCCCCBBBBBBBBBCCCCB
+Colour-Codes             -(------)  BVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBV
+--------------------------------------------------------------------------------------------------------------------
+
+5K9Q_B                   -(------)  --------------------------------------------------------------------------------
+5KAN_B                   -(------)  --------------------------------------------------------------------------------
+4UBD_B                   -(------)  --------------------------------------------------------------------------------
+5K9O_I                   I(   243)  ITFEATGNLVVPRYAFAMERNAGSGIIISDTPVHDCNTTCQTPKGAINTSLPFQNIHPITIGKCPKYVKSTKLRLATGLR
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)                                                                                  
+Consensus-SSE            -(------)  BBBBBCCCBBCCCCBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCBBCCCCBBBBCCCC
+Colour-Codes             -(------)  ROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVRO
+--------------------------------------------------------------------------------------------------------------------
+
+5K9Q_B                   B(    10)  -----------IENGWEGMIDGWYGFRHQNSEGTGQAADLKSTQAAIDQINGKLNRVIEK-TNEKFHQIEKEFSEVEGRI
+5KAN_B                   B(    10)  -----------IENGWEGMIDGWYGFRHQNSEGTGQAADLKSTQAAIDQINGKLNRVIEK-TNEKFHQIEKEFSEVEGRI
+4UBD_B                   B(     9)  ----------FIENGWEGMIDGWYGFRHQNSEGTGQAADLKSTQAAIDQINGKLNRVIEK-TNEKFHQIEKEFSEVEGRI
+5K9O_I                   I(   322)  NIPSIQSRGGFIEGGWTGMVDGWYGYHHQNEQGSGYAADLKSTQNAIDEITNKVNSVIEKMNTQ----------------
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)            fIEnGWeGMiDGWYGfrHQNseGtGqAADLKSTQaAIDqIngKlNrVIEK tnekfhqiekefsevegri
+Consensus-SSE            -(------)  BBCCCCCCCCCCCCCCCCCCCCCCCBBBBCCCCCBBBBBCAAAAAAAAAAAAAAAAACCCABBBBCCCCCCCCCCCCCAA
+Colour-Codes             -(------)  YGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYG
+--------------------------------------------------------------------------------------------------------------------
+
+5K9Q_B                   B(    78)  QDLEKYVEDTKIDLWSYNAELLVALENQHTIDLTDSEMNKLFEKTRRQLRENAEDMGNGCFKIYHKCDNACIESIRNGTY
+5KAN_B                   B(    78)  QDLEKYVEDTKIDLWSYNAELLVALENQHTIDLTDSEMNKLFEKTRRQLRENAEDMGNGCFKIYHKCDNACIESIRNGTY
+4UBD_B                   B(    78)  QDLEKYVEDTKIDLWSYNAELLVALENQHTIDLTDSEMNKLFEKTRRQLRENAEDMGNGCFKIYHKCDNACIESIRNGTY
+5K9O_I                   I(   415)  --------DGFLDIWTYNAELLVLLENERTLDYHDSNVKNLYEKVRSQLKNNAKEIGNGCFEFYHKCDNTCMESVKNGTY
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)  qdlekyveDtkiDlWsYNAELLVaLENqhTiDltDSemnkLfEKtRrQLreNAedmGNGCFkiYHKCDNaCiESirNGTY
+Consensus-SSE            -(------)  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCCCCCCCCCCCBBBCCCCCCAAAAAAACCCB
+Colour-Codes             -(------)  BVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBV
+--------------------------------------------------------------------------------------------------------------------
+
+5K9Q_B                   B(   158)  DHDVYRDEALNNRF-----
+5KAN_B                   B(   158)  DHDVYRDEALNNRFQIKGV
+4UBD_B                   B(   158)  DHDVYRDEALNNRFQ-I--
+5K9O_I                   I(   487)  DYP-K-Y-S-E-EAKL---
+
+-------------------------------------------------------
+Consensus-AA             -(------)  Dhdvyrdealnnrfq    
+Consensus-SSE            -(------)  BCAACCAAAAAAAACCCCC
+Colour-Codes             -(------)  ROYGBVROYGBVROYGBVR
+-------------------------------------------------------
+
+====================================================================================================================
+
+Peak  memory allocation: 307 Mb.
+Total memory on exit: 0 Mb.
+Kpax finished in a total of 0.29 seconds (0.00 minutes).
+
+
+------------------------------------------------------------------------------
+Kpax 5.0.5 log stopping at Fri Aug  5 19:09:56 2022 on host opaat.
+------------------------------------------------------------------------------

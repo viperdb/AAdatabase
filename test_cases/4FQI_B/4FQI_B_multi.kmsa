@@ -1,0 +1,60 @@
+4FQI_B                   B(     1)  -----------------------------GLFGAIAGFIEGGWQGMVDGWYGYHHSNEQGSGYA----ADKESTQKAIDG
+3FKU_B                   B(     1)  -----------------------------GLFGAIAGFIEGGWQGMVDGWYGYHHSNEQGSGYA----ADKESTQKAIDG
+3GBN_B                   B(     1)  -----------------------------GLFGAIAGFIEGGWTGMIDGWYGYHHQNEQGSGYA----ADQKSTQNAIDG
+5WKO_B                   B(     1)  EIVLTQSPGTLSLSPGERATLSCRASQSVS-SSY---LA-----------WYQ----------QKPGQAP-R--------
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)                               glfgaiagfieggwqgmvdgwygyhhsneqgsgya    Adkestqkaidg
+Consensus-SSE            -(------)  CBBBBBCCCCBBBCCCCCBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCBBBBCCCCCCCBCCCCCCCAAAAAAAAA
+Reference-SSE            -(------)                               CCCCCCCCCCCCCCCCCCCCCCCCBBBCCCCCCCC    CCCAAAAAAAAA
+Colour-Codes             -(------)  ROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVRO
+--------------------------------------------------------------------------------------------------------------------
+
+4FQI_B                   B(    48)  VTNKVNSIIDKMNTQFE--AVGREFNNLERRIENLNKKMEDGFLDVWTYNAELLVLMENERTLDFHDSNVKNLY-----D
+3FKU_B                   B(    48)  VTNKVNSIIDKMNTQFE--AVGREFNNLERRIENLNKKMEDGFLDVWTYNAELLVLMENERTLDFHDSNVKNLY-----D
+3GBN_B                   B(    48)  ITNKVNSVIEKMNT--QFTAVGKEFNNLERRIENLNKKVDDGFLDIWTYNAELLVLLENERTLDFHDSNVRNLY-----E
+5WKO_B                   B(    46)  -----------------------------------------------------------------------LLIYGASSR
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)  vtnkvnsiidkmntqfe  avgrefnnlerrienlnkkmedgfldvwtynaellvlmenertldfhdsnvknLy     d
+Consensus-SSE            -(------)  AAAAAAAAAAACCCCCCCCBBBBBBCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCCCCA
+Reference-SSE            -(------)  AAAAAAAAAAACCCCCB  BBBBBBCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     A
+Colour-Codes             -(------)  YGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYG
+--------------------------------------------------------------------------------------------------------------------
+
+4FQI_B                   B(   121)  KVRL-QLRDNAKELG-----NGCFEFYHKCDNECMESVRNGTYDYPQYSEEARLKREEISSG------------------
+3FKU_B                   B(   121)  KVRL-QLRDNAKELG-----NGCFEFYHKCDNECMESVRNGTYDYPQYSEEARLKREEIS-GVRSLV-------------
+3GBN_B                   B(   121)  KVKS-QLKNNAKEIG-----NGCFEFYHKCDDACMESVRNGTYDYPKYSEESKLNREEI---------------------
+5WKO_B                   B(    55)  A--TGIPD-RF-SGSGSGTDFTLTIT-RLEP--EDF--AV---------------------------YYCQQYVSTPLTF
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)  kvrl qlrdnakelg     ngcfefyhkcdnecmesvrngtydypqyseearlkreeis g                  
+Consensus-SSE            -(------)  AAAACACCCCCCBCCCCCCCCCBBBCCCCCCCAAAAAAACCCBBCAACCAAAAAAAAAAAACCAACCBBBBBCCCCCCCC
+Reference-SSE            -(------)  AAAA ACCCCCCCCC     CCCBBCCCCCCCAAAAAAACCCBBCAACCAAAAAAAAAAAAC                  
+Colour-Codes             -(------)  BVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBV
+--------------------------------------------------------------------------------------------------------------------
+
+4FQI_B                   -(------)  --------------------------------------------------------------------------------
+3FKU_B                   -(------)  --------------------------------------------------------------------------------
+3GBN_B                   -(------)  --------------------------------------------------------------------------------
+5WKO_B                   B(    99)  GGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSST
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)                                                                                  
+Consensus-SSE            -(------)  CCBBBBCCCCCCCCCCBBBBCCCCAAAACCCBBBBBBBCCCCCCCBBBBBBCCCCCCCCCCBBBBCCCCCCCCCCBBBBB
+Reference-SSE            -(------)                                                                                  
+Colour-Codes             -(------)  ROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVRO
+--------------------------------------------------------------------------------------------------------------------
+
+4FQI_B                   -(------)  ----------------------------------
+3FKU_B                   -(------)  ----------------------------------
+3GBN_B                   -(------)  ----------------------------------
+5WKO_B                   B(   179)  LTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRG
+
+----------------------------------------------------------------------
+Consensus-AA             -(------)                                    
+Consensus-SSE            -(------)  BBCCCAAAAACCCBBBBBBCCCCCCCBBBBBCCC
+Reference-SSE            -(------)                                    
+Colour-Codes             -(------)  YGBVROYGBVROYGBVROYGBVROYGBVROYGBV
+----------------------------------------------------------------------
+

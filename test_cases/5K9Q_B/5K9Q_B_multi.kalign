@@ -1,0 +1,83 @@
+#===============================================================================
+#Primary query:      5K9Q_B
+#Aligned structures: 4
+#Alignment length:   499
+#===============================================================================
+
+5K9Q_B                  GAI-AGF-------------------------------------------------------------------------
+5KAN_B                  GAI-AGF-------------------------------------------------------------------------
+4UBD_B                  --------------------------------------------------------------------------------
+5K9O_I                  -DTLCIGYHANNSTDTVDTVLEKNVTVTHSVNLLEDKHNGKLCKLRGVAPLHLGKCNIAGWILGNPECESLSTASSWSYI
+
+--------------------------------------------------------------------------------------------------------
+Consensus-AA            gai agf                                                                         
+Consensus-SSE           CCBBBCCCCCCCCCBBBBCCCCCCBBBCCBBCCCBBCCCCCCCCCCCCCCCBBCCCCCAAAACCCCCCCCCCCCCCCCCB
+Reference-SSE           CCB BCC                                                                         
+--------------------------------------------------------------------------------------------------------
+
+5K9Q_B                  --------------------------------------------------------------------------------
+5KAN_B                  --------------------------------------------------------------------------------
+4UBD_B                  --------------------------------------------------------------------------------
+5K9O_I                  VETPSSDNGTCYPGDFIDYEELREQLSSVSSFERFEIFPKTSSWPNHDSNKGVTAACPHAGAKSFYKNLIWLVKKGNSYP
+
+--------------------------------------------------------------------------------------------------------
+Consensus-AA                                                                                            
+Consensus-SSE           BBCCCCCCCCCCCCCCCCCAAAAAAACCCCCBBBCCCCCCAAACCCCCCCCCCCCCCCCCCCCCCCCCCBBBCCCCCCCC
+Reference-SSE                                                                                           
+--------------------------------------------------------------------------------------------------------
+
+5K9Q_B                  --------------------------------------------------------------------------------
+5KAN_B                  --------------------------------------------------------------------------------
+4UBD_B                  --------------------------------------------------------------------------------
+5K9O_I                  KLSKSYINDKGKEVLVLWGIHHPSTSADQQSLYQNADTYVFVGSSRYSKKFKPEIAIRPKVRDQEGRMNYYWTLVEPGDK
+
+--------------------------------------------------------------------------------------------------------
+Consensus-AA                                                                                            
+Consensus-SSE           CBBBBBBCCCCCCBBBBBBBBBCCCCAAAAAACCCCCBBBBBBCCCCBBBBBBBBCCCCCCCCCCCBBBBBBBBBCCCCB
+Reference-SSE                                                                                           
+--------------------------------------------------------------------------------------------------------
+
+5K9Q_B                  --------------------------------------------------------------------------------
+5KAN_B                  --------------------------------------------------------------------------------
+4UBD_B                  --------------------------------------------------------------------------------
+5K9O_I                  ITFEATGNLVVPRYAFAMERNAGSGIIISDTPVHDCNTTCQTPKGAINTSLPFQNIHPITIGKCPKYVKSTKLRLATGLR
+
+--------------------------------------------------------------------------------------------------------
+Consensus-AA                                                                                            
+Consensus-SSE           BBBBBCCCBBCCCCBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCBBCCCCBBBBCCCC
+Reference-SSE                                                                                           
+--------------------------------------------------------------------------------------------------------
+
+5K9Q_B                  -----------IENGWEGMIDGWYGFRHQNSEGTGQAADLKSTQAAIDQINGKLNRVIEK-TNEKFHQIEKEFSEVEGRI
+5KAN_B                  -----------IENGWEGMIDGWYGFRHQNSEGTGQAADLKSTQAAIDQINGKLNRVIEK-TNEKFHQIEKEFSEVEGRI
+4UBD_B                  ----------FIENGWEGMIDGWYGFRHQNSEGTGQAADLKSTQAAIDQINGKLNRVIEK-TNEKFHQIEKEFSEVEGRI
+5K9O_I                  NIPSIQSRGGFIEGGWTGMVDGWYGYHHQNEQGSGYAADLKSTQNAIDEITNKVNSVIEKMNTQ----------------
+
+--------------------------------------------------------------------------------------------------------
+Consensus-AA                      fIEnGWeGMiDGWYGfrHQNseGtGqAADLKSTQaAIDqIngKlNrVIEK tnekfhqiekefsevegri
+Consensus-SSE           BBCCCCCCCCCCCCCCCCCCCCCCCBBBBCCCCCBBBBBCAAAAAAAAAAAAAAAAACCCABBBBCCCCCCCCCCCCCAA
+Reference-SSE                      CCCCCCCCCCCCCCBBBBCCCCCBBBBBCAAAAAAAAAAAAAAAAACCC BBBBCCCCCCCCCCCCCAA
+--------------------------------------------------------------------------------------------------------
+
+5K9Q_B                  QDLEKYVEDTKIDLWSYNAELLVALENQHTIDLTDSEMNKLFEKTRRQLRENAEDMGNGCFKIYHKCDNACIESIRNGTY
+5KAN_B                  QDLEKYVEDTKIDLWSYNAELLVALENQHTIDLTDSEMNKLFEKTRRQLRENAEDMGNGCFKIYHKCDNACIESIRNGTY
+4UBD_B                  QDLEKYVEDTKIDLWSYNAELLVALENQHTIDLTDSEMNKLFEKTRRQLRENAEDMGNGCFKIYHKCDNACIESIRNGTY
+5K9O_I                  --------DGFLDIWTYNAELLVLLENERTLDYHDSNVKNLYEKVRSQLKNNAKEIGNGCFEFYHKCDNTCMESVKNGTY
+
+--------------------------------------------------------------------------------------------------------
+Consensus-AA            qdlekyveDtkiDlWsYNAELLVaLENqhTiDltDSemnkLfEKtRrQLreNAedmGNGCFkiYHKCDNaCiESirNGTY
+Consensus-SSE           AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCCCCCCCCCCCBBBCCCCCCAAAAAAACCCB
+Reference-SSE           AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCCCCCCCCCCCBBBCCCCCCAAAAAAACCCB
+--------------------------------------------------------------------------------------------------------
+
+5K9Q_B                  DHDVYRDEALNNRF-----
+5KAN_B                  DHDVYRDEALNNRFQIKGV
+4UBD_B                  DHDVYRDEALNNRFQ-I--
+5K9O_I                  DYP-K-Y-S-E-EAKL---
+
+-------------------------------------------
+Consensus-AA            Dhdvyrdealnnrfq    
+Consensus-SSE           BCAACCAAAAAAAACCCCC
+Reference-SSE           BCAACCAAAAAAAA     
+-------------------------------------------
+

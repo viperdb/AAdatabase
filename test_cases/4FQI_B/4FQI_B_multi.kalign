@@ -1,0 +1,61 @@
+#===============================================================================
+#Primary query:      4FQI_B
+#Aligned structures: 4
+#Alignment length:   354
+#===============================================================================
+
+4FQI_B                  -----------------------------GLFGAIAGFIEGGWQGMVDGWYGYHHSNEQGSGYA----ADKESTQKAIDG
+3FKU_B                  -----------------------------GLFGAIAGFIEGGWQGMVDGWYGYHHSNEQGSGYA----ADKESTQKAIDG
+3GBN_B                  -----------------------------GLFGAIAGFIEGGWTGMIDGWYGYHHQNEQGSGYA----ADQKSTQNAIDG
+5WKO_B                  EIVLTQSPGTLSLSPGERATLSCRASQSVS-SSY---LA-----------WYQ----------QKPGQAP-R--------
+
+--------------------------------------------------------------------------------------------------------
+Consensus-AA                                         glfgaiagfieggwqgmvdgwygyhhsneqgsgya    Adkestqkaidg
+Consensus-SSE           CBBBBBCCCCBBBCCCCCBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCBBBBCCCCCCCBCCCCCCCAAAAAAAAA
+Reference-SSE                                        CCCCCCCCCCCCCCCCCCCCCCCCBBBCCCCCCCC    CCCAAAAAAAAA
+--------------------------------------------------------------------------------------------------------
+
+4FQI_B                  VTNKVNSIIDKMNTQFE--AVGREFNNLERRIENLNKKMEDGFLDVWTYNAELLVLMENERTLDFHDSNVKNLY-----D
+3FKU_B                  VTNKVNSIIDKMNTQFE--AVGREFNNLERRIENLNKKMEDGFLDVWTYNAELLVLMENERTLDFHDSNVKNLY-----D
+3GBN_B                  ITNKVNSVIEKMNT--QFTAVGKEFNNLERRIENLNKKVDDGFLDIWTYNAELLVLLENERTLDFHDSNVRNLY-----E
+5WKO_B                  -----------------------------------------------------------------------LLIYGASSR
+
+--------------------------------------------------------------------------------------------------------
+Consensus-AA            vtnkvnsiidkmntqfe  avgrefnnlerrienlnkkmedgfldvwtynaellvlmenertldfhdsnvknLy     d
+Consensus-SSE           AAAAAAAAAAACCCCCCCCBBBBBBCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCCCCA
+Reference-SSE           AAAAAAAAAAACCCCCB  BBBBBBCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     A
+--------------------------------------------------------------------------------------------------------
+
+4FQI_B                  KVRL-QLRDNAKELG-----NGCFEFYHKCDNECMESVRNGTYDYPQYSEEARLKREEISSG------------------
+3FKU_B                  KVRL-QLRDNAKELG-----NGCFEFYHKCDNECMESVRNGTYDYPQYSEEARLKREEIS-GVRSLV-------------
+3GBN_B                  KVKS-QLKNNAKEIG-----NGCFEFYHKCDDACMESVRNGTYDYPKYSEESKLNREEI---------------------
+5WKO_B                  A--TGIPD-RF-SGSGSGTDFTLTIT-RLEP--EDF--AV---------------------------YYCQQYVSTPLTF
+
+--------------------------------------------------------------------------------------------------------
+Consensus-AA            kvrl qlrdnakelg     ngcfefyhkcdnecmesvrngtydypqyseearlkreeis g                  
+Consensus-SSE           AAAACACCCCCCBCCCCCCCCCBBBCCCCCCCAAAAAAACCCBBCAACCAAAAAAAAAAAACCAACCBBBBBCCCCCCCC
+Reference-SSE           AAAA ACCCCCCCCC     CCCBBCCCCCCCAAAAAAACCCBBCAACCAAAAAAAAAAAAC                  
+--------------------------------------------------------------------------------------------------------
+
+4FQI_B                  --------------------------------------------------------------------------------
+3FKU_B                  --------------------------------------------------------------------------------
+3GBN_B                  --------------------------------------------------------------------------------
+5WKO_B                  GGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSST
+
+--------------------------------------------------------------------------------------------------------
+Consensus-AA                                                                                            
+Consensus-SSE           CCBBBBCCCCCCCCCCBBBBCCCCAAAACCCBBBBBBBCCCCCCCBBBBBBCCCCCCCCCCBBBBCCCCCCCCCCBBBBB
+Reference-SSE                                                                                           
+--------------------------------------------------------------------------------------------------------
+
+4FQI_B                  ----------------------------------
+3FKU_B                  ----------------------------------
+3GBN_B                  ----------------------------------
+5WKO_B                  LTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRG
+
+----------------------------------------------------------
+Consensus-AA                                              
+Consensus-SSE           BBCCCAAAAACCCBBBBBBCCCCCCCBBBBBCCC
+Reference-SSE                                             
+----------------------------------------------------------
+

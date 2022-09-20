@@ -1,0 +1,374 @@
+5KAQ_B                   B(    11)  ---A-TL---CLG-HHAVPNG-TLVKTITDD-QI-E-VTNATELV-QSSSTGKICNNPH---RI-LDGIDCTLIDALLGD
+4UBD_B                   -(------)  --------------------------------------------------------------------------------
+5K9Q_B                   B(     4)  G--A-I----AGF-------------------------------------------------------------------
+3ZTJ_F                   F(     1)  ------GL--FGA-------------------------------------------------------------------
+3ZTJ_B                   B(     1)  ------GL--FGA-------------------------------------------------------------------
+5KAN_B                   B(     4)  G--A-IA---G-F-------------------------------------------------------------------
+3ZTJ_D                   D(     1)  ------GLF-GA--------------------------------------------------------------------
+4KVN_A                   A(    27)  -A-TLC----L-G-HHAVPNG-TIVKTITND-QI-E-VTNATELV-QSSSTGEICDSPH---QI-LDGKNCTLIDALLGD
+5JW4_H                   H(     1)  ------GLF-GA--------------------------------------------------------------------
+5WKO_X                   X(     1)  ------GLF-GA--------------------------------------------------------------------
+5JW4_D                   D(     1)  ------GLF-GA--------------------------------------------------------------------
+5JW4_F                   F(     1)  ------GLF-GA--------------------------------------------------------------------
+5JW4_J                   J(     1)  ------GLF-GA--------------------------------------------------------------------
+5JW4_L                   L(     1)  ------GLF-GA--------------------------------------------------------------------
+5JW4_B                   B(     1)  ------GLF-GA--------------------------------------------------------------------
+3GBN_B                   B(     1)  ------GLF-GA--------------------------------------------------------------------
+3FKU_J                   J(     1)  ------GLFGA---------------------------------------------------------------------
+3FKU_L                   L(     1)  ------GLFGA---------------------------------------------------------------------
+3FKU_H                   H(     1)  ------GLFGA---------------------------------------------------------------------
+4FQI_B                   B(     1)  ------GLFGA---------------------------------------------------------------------
+3FKU_F                   F(     1)  ------GLFG-A--------------------------------------------------------------------
+3FKU_D                   D(     1)  ------GLFG-A--------------------------------------------------------------------
+3FKU_B                   B(     1)  ------GLFG-A--------------------------------------------------------------------
+5K9O_I                   I(    11)  --DT-LC-----IGYHANNSTDTVDT----VLEKNVTVTHSVNLLED-KHNGKLC--KLRGVAPLH-LGKCNIAGWILGN
+5WKO_B                   -(------)  --------------------------------------------------------------------------------
+5JW5_A                   -(------)  --------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)  g  a iglfgga  hhavpng t vktit d qi e vtnatelv qssstgkic  ph    i ldg  ctlidallgd
+Consensus-SSE            -(------)  CCBBBBCCCCCCCBCCCCCCCBCBBBCCCCCCCBCBBBCCBBCCCBCCCCCCCCCCCCCCCCCBCBBCCCCCCAAAACCC
+Reference-SSE            -(------)     B BB   BBB CCCCCCC CBBBCCCCC CB B CCCBBBCC CCCCCCCCCCCCC   CB BBCCCCCCAAAACCC
+Colour-Codes             -(------)  ROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVRO
+--------------------------------------------------------------------------------------------------------------------
+
+5KAQ_B                   B(    74)  PHCDVFQNET--WDLFVERSKAFSN-CYPYDVPDYASLRSLVASSG--TLEFITE-G--F---TWTGVTQN-GGSNACKR
+4UBD_B                   -(------)  --------------------------------------------------------------------------------
+5K9Q_B                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_F                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_B                   -(------)  --------------------------------------------------------------------------------
+5KAN_B                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_D                   -(------)  --------------------------------------------------------------------------------
+4KVN_A                   A(    90)  PQCDGFQNKK--WDLFVERSKAYSN-CYPYDVPDYASLRSLVASSG--TLEFNNE-S--F---NWTGVTQN-GTSSACIR
+5JW4_H                   -(------)  --------------------------------------------------------------------------------
+5WKO_X                   -(------)  --------------------------------------------------------------------------------
+5JW4_D                   -(------)  --------------------------------------------------------------------------------
+5JW4_F                   -(------)  --------------------------------------------------------------------------------
+5JW4_J                   -(------)  --------------------------------------------------------------------------------
+5JW4_L                   -(------)  --------------------------------------------------------------------------------
+5JW4_B                   -(------)  --------------------------------------------------------------------------------
+3GBN_B                   -(------)  --------------------------------------------------------------------------------
+3FKU_J                   -(------)  --------------------------------------------------------------------------------
+3FKU_L                   -(------)  --------------------------------------------------------------------------------
+3FKU_H                   -(------)  --------------------------------------------------------------------------------
+4FQI_B                   -(------)  --------------------------------------------------------------------------------
+3FKU_F                   -(------)  --------------------------------------------------------------------------------
+3FKU_D                   -(------)  --------------------------------------------------------------------------------
+3FKU_B                   -(------)  --------------------------------------------------------------------------------
+5K9O_I                   I(    74)  PEC-ESLSTASSWSYIVETPSSDNGTCYPGDFIDYEELREQL-SSVSSF-ERFEI-F--PKTSSWPNHDSNKGVTAACPH
+5WKO_B                   B(     1)  -----------------------------------------------E--IVL-T-QSPG--T-LSL-------------
+5JW5_A                   A(     1)  -----------------------------------------------Q--V-Q-LQQSG----PGLV-------------
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)  p cd fqn    wdlfverska sn cypydvpdyaslrslvassg  tlef  e qs f    wtgvtqn g s ac r
+Consensus-SSE            -(------)  CCCCCCCCBBCCBCCBBBCCCCCCCCCCCBBBCCCAAAAAAAAACCCCCBBBBBBBBBCBCAABBCCCCCCCBBCCCCCC
+Reference-SSE            -(------)  CCCCCCCCBB  BCCBBBCCCBBBC CCCBBBCCCAAAAAAAAACC  CBBBBBC C  B   BBCCCCCC BBBCCCCC
+Colour-Codes             -(------)  YGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYG
+--------------------------------------------------------------------------------------------------------------------
+
+5KAQ_B                   B(   142)  GPGSGFFSRLNWLTKSGSTYPVLNVTMPNNDNFD-----KLYI-------------WG----------------VH-HPS
+4UBD_B                   -(------)  --------------------------------------------------------------------------------
+5K9Q_B                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_F                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_B                   -(------)  --------------------------------------------------------------------------------
+5KAN_B                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_D                   -(------)  --------------------------------------------------------------------------------
+4KVN_A                   A(   158)  RSKNSFFSRLNWLTHLNFKYPALNVTMPNNEQFD-----KLYI-------------WG----------------VH-HPG
+5JW4_H                   -(------)  --------------------------------------------------------------------------------
+5WKO_X                   -(------)  --------------------------------------------------------------------------------
+5JW4_D                   -(------)  --------------------------------------------------------------------------------
+5JW4_F                   -(------)  --------------------------------------------------------------------------------
+5JW4_J                   -(------)  --------------------------------------------------------------------------------
+5JW4_L                   -(------)  --------------------------------------------------------------------------------
+5JW4_B                   -(------)  --------------------------------------------------------------------------------
+3GBN_B                   -(------)  --------------------------------------------------------------------------------
+3FKU_J                   -(------)  --------------------------------------------------------------------------------
+3FKU_L                   -(------)  --------------------------------------------------------------------------------
+3FKU_H                   -(------)  --------------------------------------------------------------------------------
+4FQI_B                   -(------)  --------------------------------------------------------------------------------
+3FKU_F                   -(------)  --------------------------------------------------------------------------------
+3FKU_D                   -(------)  --------------------------------------------------------------------------------
+3FKU_B                   -(------)  --------------------------------------------------------------------------------
+5K9O_I                   I(   142)  AGAKSFYKNLIWLVKKGNSYPKLSKSYINDKGKE-----VLVL-------------WG----------------IH-HPS
+5WKO_B                   B(    14)  ---------------S--PGERATLSCRA-SQSV--SSSYLAW-YQQKPG-QAPRLLIYGA-------SSRATGIP-D--
+5JW5_A                   A(    13)  ---------------K--PSQTLSLTCAI-SGDSVSSYNAVWNWIRQSPSRG-LEWLGR-TYYRSGWYNDYA-E-SVK--
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)      sffsrlnwltk g pyp l  t pnns fd  s  klyi   q p       wg             a   h hps
+Consensus-SSE            -(------)  CCCCCCCCCCBBBCCCCCCCCCBBBBBBCCCCCCCCCCCBBBBBBBBCCCCCCCBBBBBCBBBCCCCBBBCCCCBBCBCC
+Reference-SSE            -(------)  CCCCCCCCCCBBBCCCCCCCCCBBBBBBBCCCCC     BBBB             BB                BB BCC
+Colour-Codes             -(------)  BVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBV
+--------------------------------------------------------------------------------------------------------------------
+
+5KAQ_B                   B(   187)  TNQEQTSLYVQASGRVTVSTRRSQQTIIPNIESRPWVRGLSSRISIYWTIVKPGDVLVINSNG-N--L-I-APRGYFK-M
+4UBD_B                   -(------)  --------------------------------------------------------------------------------
+5K9Q_B                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_F                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_B                   -(------)  --------------------------------------------------------------------------------
+5KAN_B                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_D                   -(------)  --------------------------------------------------------------------------------
+4KVN_A                   A(   203)  TDKDQIFLYAQASGRITVSTKRSQQTVSPNIGSRPRVRNIPSRISIYWTIVKPGDILLINSTG-N--L-I-APRGYFK-I
+5JW4_H                   -(------)  --------------------------------------------------------------------------------
+5WKO_X                   -(------)  --------------------------------------------------------------------------------
+5JW4_D                   -(------)  --------------------------------------------------------------------------------
+5JW4_F                   -(------)  --------------------------------------------------------------------------------
+5JW4_J                   -(------)  --------------------------------------------------------------------------------
+5JW4_L                   -(------)  --------------------------------------------------------------------------------
+5JW4_B                   -(------)  --------------------------------------------------------------------------------
+3GBN_B                   -(------)  --------------------------------------------------------------------------------
+3FKU_J                   -(------)  --------------------------------------------------------------------------------
+3FKU_L                   -(------)  --------------------------------------------------------------------------------
+3FKU_H                   -(------)  --------------------------------------------------------------------------------
+4FQI_B                   -(------)  --------------------------------------------------------------------------------
+3FKU_F                   -(------)  --------------------------------------------------------------------------------
+3FKU_D                   -(------)  --------------------------------------------------------------------------------
+3FKU_B                   -(------)  --------------------------------------------------------------------------------
+5K9O_I                   I(   187)  TSADQQSLYQNADTYVFVGSSRYSKKFKPEIAIRPKVRDQEGRMNYYWTLVEPGDKITFEATG-N--L-V-VPRYAFA-M
+5WKO_B                   B(    61)  --------------RFSGSG------------------------------SG--TDFTLTITRLEPEDFA-VYYCQQY-V
+5JW5_A                   A(    69)  -------------SRITINPDT-----------------------------S-KNQFSLQLNSVTPEDTAVY-YCARSGH
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)  t  dq sly qasgr tvst rsqqt  pni srp vr   srisiywtivkpgd  t nstg npel    pr  fk m
+Consensus-SSE            -(------)  CCAAAAAACCCCCCCBBBBCCCCBBBBBBBBCCCCCCCCCCCBBBBBBBBBCCCCBBBBBBCCCCCCBCBCCCCCBBCCC
+Reference-SSE            -(------)  CCAAAAAACCCCCCBBBBBCCCCBBBBBBBBCCCCCCCCCCCBBBBBBBBBCCCCBBBBBBCC C  B B CCCCCCC B
+Colour-Codes             -(------)  ROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVRO
+--------------------------------------------------------------------------------------------------------------------
+
+5KAQ_B                   B(   261)  -RTGKSS-IMRSDAPIDTCI-SE-CITPNGSIP-NDKPFQNVNKITYGACPKYVKQNTLKLATGMRNVP----------E
+4UBD_B                   -(------)  --------------------------------------------------------------------------------
+5K9Q_B                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_F                   F(     6)  -----------------------------------------------------------------I-A------------
+3ZTJ_B                   B(     6)  -----------------------------------------------------------------I-A------------
+5KAN_B                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_D                   D(     6)  -----------------------------------------------------------------I-A------------
+4KVN_A                   A(   277)  -RSGKSS-IMRSDAPIGKCN-SE-CITPNGSIP-NDKPFQNVNRITYGACPRYVKQNTLKLATGMRNVP----------E
+5JW4_H                   H(     6)  -----------------------------------------------------------------I-A------------
+5WKO_X                   X(     6)  -----------------------------------------------------------------I--------------
+5JW4_D                   D(     6)  -----------------------------------------------------------------I--------------
+5JW4_F                   F(     6)  -----------------------------------------------------------------I--------------
+5JW4_J                   J(     6)  -----------------------------------------------------------------I--------------
+5JW4_L                   L(     6)  -----------------------------------------------------------------I--------------
+5JW4_B                   B(     6)  -----------------------------------------------------------------I--------------
+3GBN_B                   B(     6)  -----------------------------------------------------------------I--------------
+3FKU_J                   J(     6)  -----------------------------------------------------------------I--------------
+3FKU_L                   L(     6)  -----------------------------------------------------------------I--------------
+3FKU_H                   H(     6)  -----------------------------------------------------------------I--------------
+4FQI_B                   B(     6)  -----------------------------------------------------------------I--------------
+3FKU_F                   F(     6)  -----------------------------------------------------------------I--------------
+3FKU_D                   D(     6)  -----------------------------------------------------------------I--------------
+3FKU_B                   B(     6)  -----------------------------------------------------------------I--------------
+5K9O_I                   I(   261)  ERNAGSG-IIISD-TPVHDCNTTCQTP--KGAINTSLPFQNIHPITIGKCPKYVKSTKLRLAT-GLRNIPSIQSRGGFIE
+5WKO_B                   B(    93)  STP-----------------------------------------------------------------------------
+5JW5_A                   A(   105)  -ITVFGVNVD----------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)   rtgkss imrsdapi  c  se citpngsip ndkpfqnvn itygacpkyvkqntlklatgminap          e
+Consensus-SSE            -(------)  BCCCCCBCBBBBCCCCCCCBCBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCBBCCCCBBBBCCCCBCCCCCCCCCCCCC
+Reference-SSE            -(------)   BCCCBB BBBBCCCCCCCB BC CCCCCCCCC CCCCCCCCCCCCCCCCCCCCCCCCBBBCCCCCBBC          C
+Colour-Codes             -(------)  YGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYG
+--------------------------------------------------------------------------------------------------------------------
+
+5KAQ_B                   B(   326)  K-FIENGWEGMIDGW-YGFRHQNSEGTGQAADLKS--TQA--AIDQ--ING-KLNR--VIE----------KTNE-KFHQ
+4UBD_B                   B(     9)  --FIENGWEGMIDGW-YGFRHQNSEGTGQAADLKS--TQA--AIDQ--ING-KLNR--VIE----------KTNE-KFHQ
+5K9Q_B                   B(    10)  ---IENGWEGMIDGW-YGFRHQNSEGTGQAADLKS--TQA--AIDQ--ING-KLNR--VIE----------KTNE-KFHQ
+3ZTJ_F                   F(     8)  G-FIENGWEGMIDGW-YGFRHQNSEGTGQAADLKS--TQA--AIDQ--ING-KLNR--VIE----------KTNE-KFHQ
+3ZTJ_B                   B(     8)  G-FIENGWEGMIDGW-YGFRHQNSEGTGQAADLKS--TQA--AIDQ--ING-KLNR--VIE----------KTNE-KFHQ
+5KAN_B                   B(    10)  ---IENGWEGMIDGW-YGFRHQNSEGTGQAADLKS--TQA--AIDQ--ING-KLNR--VIE----------KTNE-KFHQ
+3ZTJ_D                   D(     8)  G-FIENGWEGMIDGW-YGFRHQNSEGTGQAADLKS--TQA--AIDQ--ING-KLNR--VIE----------KTNE-KFHQ
+4KVN_A                   A(   342)  KQIE-NGWEGMVDGW-YGFRHQNSEGRGQAADLKS--TQA--AIDQ--ING-KLNR--LIGKTNEKFH--QIEKE--F--
+5JW4_H                   H(     8)  G-FIEGGWQGMVDGW-YGYHHSNEQGSGYAADKES--TQK--AIDG--VTN-KVNS--IID---------KMNTQFE-AV
+5WKO_X                   X(     7)  AGFIEGGWTGMVDGW-YGYHHQNEQGSGYAADLKS--TQN--AIDG--ITN-KVNS--VIE---------KMNTQ-FTAV
+5JW4_D                   D(     7)  AGFIEGGWQGMVDGW-YGYHHSNEQGSGYAADKES--TQK--AIDG--VTN-KVNS--IID---------KMNTQFE-AV
+5JW4_F                   F(     7)  AGFIEGGWQGMVDGW-YGYHHSNEQGSGYAADKES--TQK--AIDG--VTN-KVNS--IID---------KMNTQFE-AV
+5JW4_J                   J(     7)  AGFIEGGWQGMVDGW-YGYHHSNEQGSGYAADKES--TQK--AIDG--VTN-KVNS--IID---------KMNTQFE-AV
+5JW4_L                   L(     7)  AGFIEGGWQGMVDGW-YGYHHSNEQGSGYAADKES--TQK--AIDG--VTN-KVNS--IID---------KMNTQFE-AV
+5JW4_B                   B(     7)  AGFIEGGWQGMVDGW-YGYHHSNEQGSGYAADKES--TQK--AIDG--VTN-KVNS--IID---------KMNTQFE-AV
+3GBN_B                   B(     7)  AGFIEGGWTGMIDGW-YGYHHQNEQGSGYAADQKS--TQN--AIDG--ITN-KVNS--VIE---------KMNTQ-FTAV
+3FKU_J                   J(     7)  AGFIEGGWQGMVDGW-YGYHHSNEQGSGYAADKES--TQK--AIDG--VTN-KVNS--IID---------KMNTQFE-AV
+3FKU_L                   L(     7)  AGFIEGGWQGMVDGW-YGYHHSNEQGSGYAADKES--TQK--AIDG--VTN-KVNS--IID---------KMNTQFE-AV
+3FKU_H                   H(     7)  AGFIEGGWQGMVDGW-YGYHHSNEQGSGYAADKES--TQK--AIDG--VTN-KVNS--IID---------KMNTQFE-AV
+4FQI_B                   B(     7)  AGFIEGGWQGMVDGW-YGYHHSNEQGSGYAADKES--TQK--AIDG--VTN-KVNS--IID---------KMNTQFE-AV
+3FKU_F                   F(     7)  AGFIEGGWQGMVDGW-YGYHHSNEQGSGYAADKES--TQK--AIDG--VTN-KVNS--IID---------KMNTQFE-AV
+3FKU_D                   D(     7)  AGFIEGGWQGMVDGW-YGYHHSNEQGSGYAADKES--TQK--AIDG--VTN-KVNS--IID---------KMNTQFE-AV
+3FKU_B                   B(     7)  AGFIEGGWQGMVDGW-YGYHHSNEQGSGYAADKES--TQK--AIDG--VTN-KVNS--IID---------KMNTQFE-AV
+5K9O_I                   I(   341)  -----GGWTGM-VDGWYGYHHQNEQG-SGYAAD-LKST-QNAI--DEIT-NKV--NSVI--------EKMNT---Q----
+5WKO_B                   -(------)  --------------------------------------------------------------------------------
+5JW5_A                   -(------)  --------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)  agfieggwqgmvdgw ygyhhsneqgsgyaadkes  tqk  aidg  vtn kvns  iid         kmntqfefav
+Consensus-SSE            -(------)  CCCCCCCCCCCCCCCCCCCBBBCCCCCCCBBBCAAAAAAAAAAAAAAAAAAAAAAAAAAAACCCCCCAAAACCCCCBCBB
+Reference-SSE            -(------)  C CCCCCCCCCCCCC CBBBBBCCCCCBBBBBCAA  AAA  AAAA  AAA AAAA  ACC          CCCB BCCC
+Colour-Codes             -(------)  BVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBV
+--------------------------------------------------------------------------------------------------------------------
+
+5KAQ_B                   B(   395)  IEKEFSEVE--GRIQDLEKYVED-TKID-LWS-YNAE--LLVA--LEN-QHTI--DLT--DSEM--NKL-----------
+4UBD_B                   B(    66)  IEKEFSEVE--GRIQDLEKYVED-TKID-LWS-YNAE--LLVA--LEN-QHTI--DLT--DSEM--NKL-----------
+5K9Q_B                   B(    66)  IEKEFSEVE--GRIQDLEKYVED-TKID-LWS-YNAE--LLVA--LEN-QHTI--DLT--DSEM--NKL-----------
+3ZTJ_F                   F(    66)  IEKEFSEVE--GRIQDLEKYVED-TKID-LWS-YNAE--LLVA--LEN-QHTI--DLT--DSEM--NKL-----------
+3ZTJ_B                   B(    66)  IEKEFSEVE--GRIQDLEKYVED-TKID-LWS-YNAE--LLVA--LEN-QHTI--DLT--DSEM--NKL-----------
+5KAN_B                   B(    66)  IEKEFSEVE--GRIQDLEKYVED-TKID-LWS-YNAE--LLVA--LEN-QHTI--DLT--DSEM--NKL-----------
+3ZTJ_D                   D(    66)  IEKEFSEVE--GRIQDLEKYVED-TKID-LWS-YNAE--LLVA--LEN-QHTI--DLT--DSEM--NKL-----------
+4KVN_A                   A(   426)  -----------------EKYVED-TKID-LWS-YNAE--LLVA--LEN-QHTI--DLT--DSEM--NKL-----------
+5JW4_H                   H(    67)  GR--EFN-NLERRIENLNKKMED-GFLD-VWT-YNAE--LLVL--MEN-ERTL--DFH--DSNV--KNL-----------
+5WKO_X                   X(    67)  GK--EFN-HLEKRIENLNKKVDD-GFLD-IWT-YNAE--LLVL--LEN-ERTL--DYH--DSNV--KNL-----------
+5JW4_D                   D(    67)  GR--EFN-NLERRIENLNKKMED-GFLD-VWT-YNAE--LLVL--MEN-ERTL--DFH--DSNV--KNL-----------
+5JW4_F                   F(    67)  GR--EFN-NLERRIENLNKKMED-GFLD-VWT-YNAE--LLVL--MEN-ERTL--DFH--DSNV--KNL-----------
+5JW4_J                   J(    67)  GR--EFN-NLERRIENLNKKMED-GFLD-VWT-YNAE--LLVL--MEN-ERTL--DFH--DSNV--KNL-----------
+5JW4_L                   L(    67)  GR--EFN-NLERRIENLNKKMED-GFLD-VWT-YNAE--LLVL--MEN-ERTL--DFH--DSNV--KNL-----------
+5JW4_B                   B(    67)  GR--EFN-NLERRIENLNKKMED-GFLD-VWT-YNAE--LLVL--MEN-ERTL--DFH--DSNV--KNL-----------
+3GBN_B                   B(    67)  GK--EFN-NLERRIENLNKKVDD-GFLD-IWT-YNAE--LLVL--LEN-ERTL--DFH--DSNV--RNL-----------
+3FKU_J                   J(    67)  GR--EFN-NLERRIENLNKKMED-GFLD-VWT-YNAE--LLVL--MEN-ERTL--DFH--DSNV--KNL-----------
+3FKU_L                   L(    67)  GR--EFN-NLERRIENLNKKMED-GFLD-VWT-YNAE--LLVL--MEN-ERTL--DFH--DSNV--KNL-----------
+3FKU_H                   H(    67)  GR--EFN-NLERRIENLNKKMED-GFLD-VWT-YNAE--LLVL--MEN-ERTL--DFH--DSNV--KNL-----------
+4FQI_B                   B(    67)  GR--EFN-NLERRIENLNKKMED-GFLD-VWT-YNAE--LLVL--MEN-ERTL--DFH--DSNV--KNL-----------
+3FKU_F                   F(    67)  GR--EFN-NLERRIENLNKKMED-GFLD-VWT-YNAE--LLVL--MEN-ERTL--DFH--DSNV--KNL-----------
+3FKU_D                   D(    67)  GR--EFN-NLERRIENLNKKMED-GFLD-VWT-YNAE--LLVL--MEN-ERTL--DFH--DSNV--KNL-----------
+3FKU_B                   B(    67)  GR--EFN-NLERRIENLNKKMED-GFLD-VWT-YNAE--LLVL--MEN-ERTL--DFH--DSNV--KNL-----------
+5K9O_I                   I(   415)  ----------------------DGF-LDIW-TYN--AELL--VLLE-NER--TLDY-HDSN--VKNLY-EKVRSQLKNNA
+5WKO_B                   -(------)  --------------------------------------------------------------------------------
+5JW5_A                   -(------)  --------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)  grkeefnvnlerrienlnkkmed gfld vwt ynae  llvl  men ertl  dfh  dsnv  knl           
+Consensus-SSE            -(------)  BBCCBBCCCCCCAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCCCC
+Reference-SSE            -(------)  CCCCCCCCC  CAAAAAAAAAAA AAAA AAA AAAA  AAAA  AAA AAAA  AAA  AAAA  AAA           
+Colour-Codes             -(------)  ROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVRO
+--------------------------------------------------------------------------------------------------------------------
+
+5KAQ_B                   B(   448)  ----------------------FEKTRRQLR-ENAEDMGNGCFKIYHKCDNACIESIRNGTYDHDVYRDEALNN-RF-Q-
+4UBD_B                   B(   119)  ----------------------FEKTRRQLR-ENAEDMGNGCFKIYHKCDNACIESIRNGTYDHDVYRDEALNN-RF-Q-
+5K9Q_B                   B(   119)  ----------------------FEKTRRQLR-ENAEDMGNGCFKIYHKCDNACIESIRNGTYDHDVYRDEALNN-RF---
+3ZTJ_F                   F(   119)  ----------------------FEKTRRQLR-ENAEEMGNGCFKIYHKCDNACIESIRNGTYDHDVYRDEALNN-RF-Q-
+3ZTJ_B                   B(   119)  ----------------------FEKTRRQLR-ENAEEMGNGCFKIYHKCDNACIESIRNGTYDHDVYRDEALNN-RF-Q-
+5KAN_B                   B(   119)  ----------------------FEKTRRQLR-ENAEDMGNGCFKIYHKCDNACIESIRNGTYDHDVYRDEALNN-RF-QI
+3ZTJ_D                   D(   119)  ----------------------FEKTRRQLR-ENAEEMGNGCFKIYHKCDNACIESIRNGTYDHDVYRDEALNN-RF-Q-
+4KVN_A                   A(   464)  ----------------------FEKTKKQLR-ENAEDMGNGCFKIYHKCDNACIGSIRNGTYDHDVYRDEA-LNNR--F-
+5JW4_H                   H(   119)  ----------------------YDKVRLQLR-DNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQY-------------
+5WKO_X                   X(   119)  ----------------------YEKVRSQLK-NNAKEIGNGCFEFYHKCDNTCMESVKNGTYDYPKYSEEAKLN-R--E-
+5JW4_D                   D(   119)  ----------------------YDKVRLQLR-DNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQY-------------
+5JW4_F                   F(   119)  ----------------------YDKVRLQLR-DNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQY-------------
+5JW4_J                   J(   119)  ----------------------YDKVRLQLR-DNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQY-------------
+5JW4_L                   L(   119)  ----------------------YDKVRLQLR-DNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQY-------------
+5JW4_B                   B(   119)  ----------------------YDKVRLQLR-DNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQY-------------
+3GBN_B                   B(   119)  ----------------------YEKVKSQLK-NNAKEIGNGCFEFYHKCDDACMESVRNGTYDYPKYSEESKLN-RE-E-
+3FKU_J                   J(   119)  ----------------------YDKVRLQLR-DNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQYSEEARLK-REEIS
+3FKU_L                   L(   119)  ----------------------YDKVRLQLR-DNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQYSEEARLK-REEIS
+3FKU_H                   H(   119)  ----------------------YDKVRLQLR-DNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQYSEEARLK-REEIS
+4FQI_B                   B(   119)  ----------------------YDKVRLQLR-DNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQYSEEARLK-REEIS
+3FKU_F                   F(   119)  ----------------------YDKVRLQLR-DNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQYSEEARLK-REEIS
+3FKU_D                   D(   119)  ----------------------YDKVRLQLR-DNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQYSEEARLK-REEIS
+3FKU_B                   B(   119)  ----------------------YDKVRLQLR-DNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQYSEEARLK-REEIS
+5K9O_I                   I(   460)  KEIGNGCFEFYHKCDNTCMESVK--NG---TYD--Y---------------------------------------PK-YS
+5WKO_B                   -(------)  --------------------------------------------------------------------------------
+5JW5_A                   -(------)  --------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)                        ydkvrlqlr dnakelgngcfefyhkcdnecmesvrngtydypqyseea ln reeis
+Consensus-SSE            -(------)  CCCCCCCBBBCCCCCCAAAAAAAAAAAAACCBCCCCCCCCCCBBCCCCCCCAAAAAAACCCBBCAACCAAAAAAAAAAAC
+Reference-SSE            -(------)                        AAAAAAACC CCCCCCCCCCBBBCCCCCCAAAAAAACCCBBCAACAAAAAAA AC A 
+Colour-Codes             -(------)  YGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYG
+--------------------------------------------------------------------------------------------------------------------
+
+5KAQ_B                   -(------)  --------------------------------------------------------------------------------
+4UBD_B                   B(   173)  -I------------------------------------------------------------------------------
+5K9Q_B                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_F                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_B                   -(------)  --------------------------------------------------------------------------------
+5KAN_B                   B(   174)  -KGV----------------------------------------------------------------------------
+3ZTJ_D                   -(------)  --------------------------------------------------------------------------------
+4KVN_A                   A(   517)  -Q------------------------------------------------------------------------------
+5JW4_H                   -(------)  --------------------------------------------------------------------------------
+5WKO_X                   -(------)  --------------------------------------------------------------------------------
+5JW4_D                   -(------)  --------------------------------------------------------------------------------
+5JW4_F                   -(------)  --------------------------------------------------------------------------------
+5JW4_J                   -(------)  --------------------------------------------------------------------------------
+5JW4_L                   -(------)  --------------------------------------------------------------------------------
+5JW4_B                   -(------)  --------------------------------------------------------------------------------
+3GBN_B                   B(   173)  -I------------------------------------------------------------------------------
+3FKU_J                   -(------)  --------------------------------------------------------------------------------
+3FKU_L                   -(------)  --------------------------------------------------------------------------------
+3FKU_H                   -(------)  --------------------------------------------------------------------------------
+4FQI_B                   B(   175)  SG------------------------------------------------------------------------------
+3FKU_F                   F(   175)  GVRSLV--------------------------------------------------------------------------
+3FKU_D                   D(   175)  GVRSLV--------------------------------------------------------------------------
+3FKU_B                   B(   175)  GVRSLV--------------------------------------------------------------------------
+5K9O_I                   I(   493)  E-----EAKL----------------------------------------------------------------------
+5WKO_B                   B(    96)  ------------LTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREA-KVQWKVDNALQ-----SG
+5JW5_A                   A(   114)  ----------AFDMWGQGTMVTVSSAS-----------------------------TK-GPSVFPL-----APSGTAAL-
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)  gvrslv         g gt v                                                           
+Consensus-SSE            -(------)  CCCCCCCCCCCCCCCCCBBBBBBCCCCCCCCBBBBCCCCAAAACCCBBBBBBBCCCCCCCBBBBBBBCCCCCCCCCBBBC
+Reference-SSE            -(------)                                                                                  
+Colour-Codes             -(------)  BVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBV
+--------------------------------------------------------------------------------------------------------------------
+
+5KAQ_B                   -(------)  --------------------------------------------------------------------------------
+4UBD_B                   -(------)  --------------------------------------------------------------------------------
+5K9Q_B                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_F                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_B                   -(------)  --------------------------------------------------------------------------------
+5KAN_B                   -(------)  --------------------------------------------------------------------------------
+3ZTJ_D                   -(------)  --------------------------------------------------------------------------------
+4KVN_A                   -(------)  --------------------------------------------------------------------------------
+5JW4_H                   -(------)  --------------------------------------------------------------------------------
+5WKO_X                   -(------)  --------------------------------------------------------------------------------
+5JW4_D                   -(------)  --------------------------------------------------------------------------------
+5JW4_F                   -(------)  --------------------------------------------------------------------------------
+5JW4_J                   -(------)  --------------------------------------------------------------------------------
+5JW4_L                   -(------)  --------------------------------------------------------------------------------
+5JW4_B                   -(------)  --------------------------------------------------------------------------------
+3GBN_B                   -(------)  --------------------------------------------------------------------------------
+3FKU_J                   -(------)  --------------------------------------------------------------------------------
+3FKU_L                   -(------)  --------------------------------------------------------------------------------
+3FKU_H                   -(------)  --------------------------------------------------------------------------------
+4FQI_B                   -(------)  --------------------------------------------------------------------------------
+3FKU_F                   -(------)  --------------------------------------------------------------------------------
+3FKU_D                   -(------)  --------------------------------------------------------------------------------
+3FKU_B                   -(------)  --------------------------------------------------------------------------------
+5K9O_I                   -(------)  --------------------------------------------------------------------------------
+5WKO_B                   B(   158)  NS------------------------Q-ESVTEQDSKDSTYS-----LSSTL-TLSKADYEKHKVYACEVTH--------
+5JW5_A                   A(   154)  -GCLVKDYFPEPVTVSWNSGALTSGVHTFPAV--------LQSSGLYSLSSVVTV-----------------PSSSLGTQ
+
+--------------------------------------------------------------------------------------------------------------------
+Consensus-AA             -(------)                                                   s   t                          
+Consensus-SSE            -(------)  CBBBBCCCCCCCBBBBCCCCCCCCCBBBBBBBCCCCCCCCBBCCCCBBBBBBBBCCCAAAAACCCBBBBBBCCCAAAAAC
+Reference-SSE            -(------)                                                                                  
+Colour-Codes             -(------)  ROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVROYGBVRO
+--------------------------------------------------------------------------------------------------------------------
+
+5KAQ_B                   -(------)  ----------------------------------
+4UBD_B                   -(------)  ----------------------------------
+5K9Q_B                   -(------)  ----------------------------------
+3ZTJ_F                   -(------)  ----------------------------------
+3ZTJ_B                   -(------)  ----------------------------------
+5KAN_B                   -(------)  ----------------------------------
+3ZTJ_D                   -(------)  ----------------------------------
+4KVN_A                   -(------)  ----------------------------------
+5JW4_H                   -(------)  ----------------------------------
+5WKO_X                   -(------)  ----------------------------------
+5JW4_D                   -(------)  ----------------------------------
+5JW4_F                   -(------)  ----------------------------------
+5JW4_J                   -(------)  ----------------------------------
+5JW4_L                   -(------)  ----------------------------------
+5JW4_B                   -(------)  ----------------------------------
+3GBN_B                   -(------)  ----------------------------------
+3FKU_J                   -(------)  ----------------------------------
+3FKU_L                   -(------)  ----------------------------------
+3FKU_H                   -(------)  ----------------------------------
+4FQI_B                   -(------)  ----------------------------------
+3FKU_F                   -(------)  ----------------------------------
+3FKU_D                   -(------)  ----------------------------------
+3FKU_B                   -(------)  ----------------------------------
+5K9O_I                   -(------)  ----------------------------------
+5WKO_B                   B(   199)  ----------QGLSSPVTKSFNRG----------
+5JW5_A                   A(   208)  TYICNVNHKPSN------------TKVDKKVEPK
+
+----------------------------------------------------------------------
+Consensus-AA             -(------)                                    
+Consensus-SSE            -(------)  BBBBBBBBCCCCCCCCBBBBBCCCBBBBBBBCCC
+Reference-SSE            -(------)                                    
+Colour-Codes             -(------)  YGBVROYGBVROYGBVROYGBVROYGBVROYGBV
+----------------------------------------------------------------------
+

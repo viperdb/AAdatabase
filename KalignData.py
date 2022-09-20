@@ -1,3 +1,4 @@
+import json
 class KalignData:
 
     def __init__(self):
@@ -36,3 +37,17 @@ class KalignData:
         ep_index = self.get_align_index(structure_index, epitope[0], epitope[3])
         self.align[ep_index][structure_index]['t_int'] = epitope[2]
         self.align[ep_index][structure_index]['dist'] = epitope[1]
+
+    def __iter__(self):
+        yield from{
+            "pdb_files" : self.pdb_files,
+            "pdbs": self.pdbs,
+            "num_structures": self.num_structures,
+            "align": self.align
+        }.items()
+
+    def __str__(self):
+        return json.dumps(dict(self), ensure_ascii=False)
+
+    def __repr__(self):
+        return self.__str__()
