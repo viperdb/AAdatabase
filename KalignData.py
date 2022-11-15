@@ -40,14 +40,19 @@ class KalignData:
 
     def __iter__(self):
         yield from{
-            "pdb_files" : self.pdb_files,
+            "pdb_files": self.pdb_files,
             "pdbs": self.pdbs,
             "num_structures": self.num_structures,
+            "columns": self.columns,
+            "residues": self.columns,
+            "longest": self.columns,
+            "shortest": self.columns,
+            "mscore": self.columns,
             "align": self.align
         }.items()
 
     def __str__(self):
         return json.dumps(dict(self), ensure_ascii=False)
 
-    def __repr__(self):
-        return self.__str__()
+    #def __repr__(self):
+    #    return self.__str__()

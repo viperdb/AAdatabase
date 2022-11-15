@@ -22,6 +22,12 @@ class AnalyzeKmulti:
         #print(self.annotated_alignment)
         self.kmulti.calculate_seq_conservation_consensus()
 
+    def to_json(self):
+        alignment_annotations = {"epitope_conservation": self.epitope_conservation,
+                                 "epitope_conservation_type_int": self.epitope_conservation_type_int,
+                                 "epitope_index": self.epitope_index}
+        return json.dumps(alignment_annotations)
+
     def calculate_conservation(self):
         for index, a_row in enumerate(self.annotated_alignment.align):
             epitopes = 0
@@ -37,8 +43,6 @@ class AnalyzeKmulti:
                 self.epitope_index.append(index)
             self.epitope_conservation.append(epitopes)
             self.epitope_conservation_type_int.append(type_int)
-
-
         #print(self.epitope_conservation)
         #print(self.epitope_conservation_type_int)
         #print(self.epitope_index)
@@ -59,11 +63,14 @@ class AnalyzeKmulti:
 
 
 if __name__ == "__main__":
-    #path_file = "/home/dante/Julianne/antigens/kpax_results/4FQI_B/4FQI_B.kmulti"
+    #path_file = "/home/dante/Julianne/antigens/test_cases/4FQI_B/4FQI_B.kmulti"
     path_file = "/home/dante/Julianne/antigens/kpax_results/5K9Q_B/5K9Q_B.kmulti"
     obj = AnalyzeKmulti()
     obj.load_alignment(path_file)
     obj.calculate_conservation()
-    print(json.dumps(obj.kmulti.kalign_data))
+    #print(str(obj.kmulti.kalign_data))
+    print(obj.to_json())
+    #print(str(test))
     #obj.plot_conservation()
     #print("ddd")
+

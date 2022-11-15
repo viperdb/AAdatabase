@@ -25,10 +25,10 @@ class KmultiParse:
         content = re.search(pattern, self.str_kpair)
         return content.group("columns")
 
-    def get_columns(self):
-        pattern = f"#Columns:( )*(?P<columns>\d+)"
-        content = re.search(pattern, self.str_kpair)
-        return content.group("columns")
+    #def get_columns(self):
+    #    pattern = f"#Columns:( )*(?P<columns>\d+)"
+    #    content = re.search(pattern, self.str_kpair)
+    #    return content.group("columns")
 
     def get_residues(self):
         pattern = f"#Residues:( )*(?P<residues>\d+)"
@@ -82,7 +82,7 @@ class KmultiParse:
                 if len(line) > 5:
                     a_row =' '.join( line.split(' ')).split()
                     for i,aminoacid in enumerate(a_row):
-                        a_row[i]= self.parse_aminoacid(aminoacid)
+                        a_row[i] = self.parse_aminoacid(aminoacid)
                     alignment.append(a_row)
         return alignment
 
