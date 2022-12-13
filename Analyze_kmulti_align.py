@@ -54,10 +54,6 @@ class AnalyzeKmulti:
                 self.epitope_index.append(index)
             self.epitope_conservation.append(epitopes)
             self.epitope_conservation_type_int.append(type_int)
-        #print(self.epitope_conservation)
-        #print(self.epitope_conservation_type_int)
-        #print(self.epitope_index)
-        #self.print_align_resume()
 
     def print_align_resume(self):
         for index in self.epitope_index:

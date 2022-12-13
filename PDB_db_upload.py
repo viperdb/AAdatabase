@@ -1,3 +1,11 @@
+# ----------------------------------------------------------------
+# Created by    : Daniel Montiel
+# Created date   : 22/ Nov / 2022
+# -----------------------------------------------------------------
+"""
+    Library to parse pdbs and upload them into epitope analyzer daatabase.
+"""
+
 from prody import *
 from pathlib import Path
 import DatabaseConnection as db
@@ -5,6 +13,7 @@ import ConfigReader as conf
 import getopt
 import Debug_Control as debug
 import sys
+import pathlib
 
 PDB_path = conf.config["GENERAL"]["PDB_path"]
 User_path = conf.config["GENERAL"]["User_path"]
@@ -22,8 +31,6 @@ class PDB_aa_db:
         self.cur = self.dt.cursor()
 
     def parse_PDB(self, alignment = False):
-        #self.pdbCode = pdb
-        #path = PDB_path + self.pdbCode
         path = self.pdbCode
         if alignment:
             self.header = parsePDBHeader(PDB_alignment_path + self.pdbCode)
@@ -32,7 +39,6 @@ class PDB_aa_db:
             self.atoms = parsePDB(path)
             self.header = parsePDBHeader(path)
 
-        #print("Parse completed")
 
     def setup_user_defined_PDB(self):
         self.header["identifier"] = Path(self.pdbCode).stem
@@ -56,34 +62,41 @@ class PDB_aa_db:
                 self.process_matrices(entry_key)
             self.process_atoms(entry_key)
             self.dt.commit()
-            #print("{} uploaded successfully".format(self.header["identifier"]))
         else:
             print("PDB already exist")
         self.cur.close()
         self.dt.close()
 
     def exist_pdb(self, pdb):
-        sql = "SELECT COUNT(*) FROM epitope_analyzer.PDB_Headers where Pdb = '{}'".format(pdb)
-        self.cur.execute(sql)
+        sql = "SELECT COUNT(*) FROM epitope_analyzer.PDB_Headers where Pdb = %(pdb)s"
+        self.cur.execute(sql, {"pdb": pdb})
         recordCount = self.cur.fetchall()
         return recordCount[0][0]
 
     def process_header(self):
-        sql = "INSERT INTO epitope_analyzer.PDB_Headers(Pdb,Name,Mol_Type,Resolution,Experiment) "
-        sql += "VALUES ('{}','{}','{}',{},'{}')".format(self.header["identifier"], self.header["title"],
-                                                        self.header["classification"],
-                                                        self.header["resolution"], self.header["experiment"])
-        self.cur.execute(sql)
+        sql = """INSERT INTO epitope_analyzer.PDB_Headers(Pdb,Name,Mol_Type,Resolution,Experiment) 
+               VALUES (%s,%s,%s,%s,%s)"""
+        #title = self.header["title"].replace('\'', '').replace(',', '')
+        title = self.header["title"]
+        data = (self.header["identifier"], title,
+               self.header["classification"],
+               float(self.header["resolution"]), self.header["experiment"])
+        try:
+            self.cur.execute(sql, data)
+        except Exception as exp:
+            print(exp)
+            print(sql % data)
         return self.cur.lastrowid
 
     def process_molecules(self, entry_key):
         mol_id = 1
         for chain in self.header["polymers"]:
-            sql = "INSERT INTO epitope_analyzer.PDB_Mol_Info (Pdb, Mol_Id, Chain, Mol_Name, entry_key, Sequence)"
-            sql += "VALUES ('{}',{},'{}','{}',{},'{}')".format(self.header["identifier"], mol_id,
-                                                               chain.chid, chain.name.replace('\'', ''), entry_key,
-                                                               chain.sequence)
-            self.cur.execute(sql)
+            sql = """INSERT INTO epitope_analyzer.PDB_Mol_Info (Pdb, Mol_Id, Chain, Mol_Name, entry_key, Sequence) \
+                     VALUES (%s,%s,%s,%s,%s,%s)"""
+            data = (self.header["identifier"], mol_id,
+                    chain.chid, chain.name.replace('\'', ''), entry_key,
+                    chain.sequence)
+            self.cur.execute(sql, data)
             mol_id += 1
 
     def process_matrices(self, entry_key):
@@ -116,16 +129,17 @@ class PDB_aa_db:
     def process_atoms(self, entry_key):
         atomnum = 1
         for atom in self.atoms:
-            sql = "INSERT INTO epitope_analyzer.PDB_ATOM "
-            sql += "(atom_site_key ,entry_key, pdb, label_atom_id, label_seq_id,"
-            sql += "label_comp_id, label_asym_id, cartn_x, cartn_y,"
-            sql += "cartn_z, occupancy, b_iso_or_equiv) "
-            sql += "VALUES ({},{},'{}','{}','{}','{}','{}',{:.3f},{:.3f},{:.3f},{},{})".format(
-                atomnum, entry_key, self.header["identifier"], atom.getName().replace('\'', ''), atom.getResnum(),
-                atom.getResname(), atom.getChid(), atom.getCoords()[0], atom.getCoords()[1],
-                atom.getCoords()[2], atom.getOccupancy(), atom.getBeta())
-            # print(sql)
-            self.cur.execute(sql)
+            sql = """ INSERT INTO epitope_analyzer.PDB_ATOM 
+             (atom_site_key ,entry_key, pdb, label_atom_id, label_seq_id,
+             label_comp_id, label_asym_id, cartn_x, cartn_y,
+             cartn_z, occupancy, b_iso_or_equiv) 
+             VALUES (%s,%s,%s,%s,%s,%s,%s, %s,%s,%s,%s,%s)"""
+
+            data = (atomnum, entry_key, self.header["identifier"], atom.getName().replace('\'', ''), int(atom.getResnum()),
+                str(atom.getResname()), str(atom.getChid()), float(atom.getCoords()[0]), float(atom.getCoords()[1]),
+                float(atom.getCoords()[2]), float(atom.getOccupancy()), float(atom.getBeta()))
+            #print(sql % data)
+            self.cur.execute(sql, data)
             atomnum += 1
 
     def save_pdb(self, atoms_to_save):
@@ -157,16 +171,27 @@ def arguments_parsing():
     else:
         print("Parameters missing using defaults from [config.ini]")
         print(" --pdb Init pdb structure")
+        print(" --input_path Upload all pdbs in a folder")
         exit(2)
     print("Wait")
 
+
+def upload_all_pdbs_folder(folder_path):
+    pdb_path = pathlib.Path(folder_path)
+    for pdb in pdb_path.glob("*.pdb"):
+        pdb_db = PDB_aa_db(str(pdb))
+        pdb_db.parse_PDB()
+        pdb_db.upload_to_db()
 
 # Program to read and parse a pdb file and upload it to a MysqlDatabase
 # Params: --pdb pdbfile_name
 
 if __name__ == "__main__":
     arguments = arguments_parsing()
-    pdb_controller = PDB_aa_db(arguments["PDB"])
-    pdb_controller.parse_PDB()
-    pdb_controller.upload_to_db()
-    pass
+    if 'PDB' in arguments:
+        pdb_controller = PDB_aa_db(arguments["PDB"])
+        pdb_controller.parse_PDB()
+        pdb_controller.upload_to_db()
+    elif 'input_path' in arguments:
+        upload_all_pdbs_folder(arguments["input_path"])
+

@@ -29,7 +29,6 @@ class PDB_spliter:
         writePDB(f"{output_path}/{self.header['identifier']}_{chains}.pdb", chain_selection)
 
 
-
 def arguments_parsing():
     OPTIONS = {}
     if len(sys.argv) > 1:

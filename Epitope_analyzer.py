@@ -2,19 +2,46 @@ import DatabaseConnection as db
 import Debug_Control as debug
 import getopt
 import sys
+from functools import reduce
 
 class Epitope_analyzer_db:
     def __init__(self):
         self.antibody_key_words = "FAB|ANTIBODY|HEAVY|LIGHT"
 
-    def get_antibody_chains(self, PDB):
+    def get_antibody_chains(self, PDB, output_type="DB"):
         sql = f"SELECT chain FROM epitope_analyzer.PDB_Mol_Info " \
               f"WHERE Mol_Name REGEXP '{self.antibody_key_words}' and Pdb='{PDB}'"
-        return db.getDataFromAQuerry(sql)
+        data = db.getDataFromAQuerry(sql)
+        if output_type == "DB":
+            return data
+        elif output_type == "CSV":
+            if len(data) > 0:
+                return ','.join(reduce(lambda a, b: a+b, data))
+            else:
+                return ''
 
-    def get_antigen_chains(self, PDB):
+    def get_antigen_chains(self, PDB, output_type="DB"):
         sql = f"SELECT chain FROM epitope_analyzer.PDB_Mol_Info " \
               f"WHERE NOT Mol_Name REGEXP '{self.antibody_key_words}' and Pdb='{PDB}'"
+        data = db.getDataFromAQuerry(sql)
+        if output_type == "DB":
+            return db.getDataFromAQuerry(sql)
+        elif output_type == "CSV":
+            if len(data) > 0:
+                return ','.join(reduce(lambda a, b: a + b, data))
+            else:
+                return ''
+
+    def get_entries_with_antibody_chains(self):
+        sql ="""
+        SELECT header.Pdb, max(header.Name),
+        count(mol.Mol_Name)
+        FROM epitope_analyzer.PDB_Headers as header
+        INNER JOIN epitope_analyzer.PDB_Mol_Info as mol
+        ON header.Pdb = mol.Pdb
+        WHERE mol.Mol_Name REGEXP 'FAB|ANTIBODY|HEAVY|LIGHT'
+        Group by header.Pdb;
+        """
         return db.getDataFromAQuerry(sql)
 
     def print_data(self,data):
